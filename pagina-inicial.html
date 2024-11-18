@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabelly | Portfólio Acadêmico</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <h1>Portfólio Acadêmico</h1>
+        <nav>
+            <a href="#disciplinas">Disciplinas</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="disciplinas">
+            <h2>Disciplinas</h2>
+            <button class="discipline-button" onclick="openModal('modal-experiencia')">Experiência Criativa</button>
+            <button class="discipline-button" onclick="openModal('modal-filosofia')">Filosofia</button>
+            <button class="discipline-button" onclick="openModal('modal-logica')">Lógica Matemática</button>
+            <button class="discipline-button" onclick="openModal('modal-raciocinio')">Raciocínio Algorítmico</button>
+            <button class="discipline-button" onclick="openModal('modal-fundamentos')">Fundamentos de Sistemas Ciberfísicos</button>
+        </section>
+
+        <!-- Modals para cada disciplina -->
+        <div id="modal-experiencia" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-experiencia')">&times;</span>
+                <h3>Experiência Criativa</h3>
+                <br>
+                <p>Durante o semestre, a disciplina de Experiência Criativa proporcionou uma imersão prática e criativa no universo da tecnologia, permitindo o desenvolvimento de projetos incríveis e o aprendizado de novas habilidades. No Projeto 1, trabalhei em equipe para criar o jogo Jorge the Bounty Hunter no Construct. Esse projeto me ensinou bastante sobre design de jogos e trabalho em grupo, enquanto desenvolvíamos a história de um alienígena caçador de recompensas.</p> 
+
+                <p>No Projeto 2, continuamos em grupo e criamos o aplicativo multimídia Math Mania com o software Processing. Além de me introduzir ao Java, esse projeto foi um passo importante para entender a lógica por trás de aplicativos interativos, e tivemos o prazer de criar um jogo educativo para ajudar crianças a aprenderem matemática.</p> 
+                  
+                <p>O Projeto 3 trouxe o desenvolvimento web como foco, onde trabalhamos na criação do painel web Ciência Lab, usando HTML, CSS e JavaScript. Esse projeto foi especialmente marcante, pois introduziu conceitos essenciais de desenvolvimento front-end e me fez enxergar o potencial de sites educacionais.</p>
+                  
+                <p>Finalmente, no TDE, estou desenvolvendo meu portfólio pessoal, que reúne e apresenta meu aprendizado em todas essas disciplinas. Este projeto não só sintetiza o conhecimento adquirido, mas também é uma prova do quanto evoluí durante o semestre. A Experiência Criativa foi essencial para explorar diferentes áreas da computação, aprimorar meu trabalho em equipe e reforçar minha confiança para projetos futuros.</p>
+            </div>
+        </div>
+
+        <div id="modal-filosofia" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-filosofia')">&times;</span>
+                <h3>Filosofia</h3>
+                <br>
+                <p>Ao longo dos estudos em Filosofia, tive a oportunidade de me aprofundar em conceitos que, mais do que ampliar o conhecimento acadêmico, transformaram minha forma de ver o mundo. Problematizar diferentes concepções epistemológicas e desenvolver o senso crítico foram pilares essenciais nessa trajetória. A Filosofia me ensinou a questionar, analisar e valorizar os diversos tipos de conhecimento, além de compreender a verdade e seus limites. Esse exercício de reflexão é, sem dúvida, um convite para enxergar a realidade de forma mais completa e menos ingênua, e a Filosofia foi fundamental nesse processo de amadurecimento intelectual.</p>
+
+                  <p>O estudo da autonomia, com temas como liberdade e responsabilidade, foi outro ponto central. Aprendi a enxergar a importância de agir de maneira independente, fundamentada e ética, para intervir na sociedade de forma crítica e propositiva. Essa autonomia é um caminho para a realização pessoal e profissional, pois se trata de assumir as próprias escolhas com consciência e compromisso, entendendo que, para uma convivência justa e harmoniosa, devemos respeitar a diversidade.</p>
+                  
+                  <p>Além disso, a dedicação ao percurso acadêmico e universitário me mostrou o valor da constância e da disciplina na construção de um projeto de vida. Esse compromisso com o desenvolvimento pessoal e profissional é o que torna possível planejado o futuro com clareza e determinação. O conhecimento filosófico-teológico também enriqueceu minha visão de mundo, incentivando a cultura da solidariedade e o respeito pela pluralidade.</p>
+                  
+                  <p>Por fim, sinto que a Filosofia não apenas ampliou meu olhar crítico, mas também me preparou para propor ações concretas que contribuam para uma sociedade mais justa e reflexiva. Com as competências adquiridas, sinto-me capacitado(a) para intervir de forma transformadora, sempre buscando promover o sentido de vida e uma cultura mais solidária e inclusiva.</p>
+            </div>
+        </div>
+
+        <div id="modal-logica" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-logica')">&times;</span>
+                <h3>Lógica Matemática</h3>
+                <br>
+                <p>Durante o estudo de Lógica Matemática, explorei conceitos fundamentais que desenvolveram minha capacidade de raciocínio e análise de problemas complexos. A compreensão dos princípios da lógica proposicional foi essencial para entender como construir argumentos sólidos e confiáveis. Aprender a trabalhar com tabelas de verdade – tanto manualmente quanto programando em Python – proporcionou uma experiência prática que facilitou o entendimento dos resultados lógicos e das implicações notáveis.</p>
+
+                <p>As equivalências lógicas e os postulados também foram de grande importância, ajudando-me a enxergar como simplificar e transformar proposições sem alterar seu valor lógico. Esse conhecimento se estendeu para o entendimento das implicações notáveis, revelando como certos tipos de proposições possuem relações especiais que enriquecem as análises e resoluções dos problemas complexos.</p>
+                  
+                <p>O projeto de um jogo de detetive, criado em Python e baseado em Tabela Verdade (TTG), foi uma experiência que uniu teoria e prática. Desenvolver esse projeto me fez aplicar os conhecimentos de lógica proposicional de maneira criativa, explorando a programação e a construção de um julgamento dedutivo que torna o jogo envolvente e desafiador. Esse projeto foi, sem dúvida, um marco na minha aprendizagem, pois me permitiu ver a praticidade da lógica em um contexto lúdico e dinâmico.</p>
+                  
+                <p>A experiência com Lógica Matemática foi verdadeiramente transformadora. Com os conhecimentos adquiridos, sinto-me mais preparado(a) para enfrentar desafios que exigem análise detalhada e argumentação estruturada. A lógica tornou-se uma ferramenta poderosa para interpretar e resolver problemas de maneira eficiente, desenvolvendo um raciocínio crítico que será útil em diversas áreas. Com isso, estou confiante em aplicar essa habilidade tanto em minha formação quanto em futuras oportunidades profissionais, demonstrando que a lógica, além de ser uma disciplina teórica, tem um papel prático e valioso no cotidiano acadêmico e além dele.</p>
+            </div>
+        </div>
+
+        <div id="modal-raciocinio" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-raciocinio')">&times;</span>
+                <h3>Raciocínio Algorítmico</h3>
+                <br>
+                <p>Ao longo dos estudos de Raciocínio Algorítmico, mergulhei nas bases da programação em Python, explorando desde os fundamentos da linguagem até a criação de projetos práticos e colaborativos. Aprendi a trabalhar com operadores relacionais e lógicos, essenciais para construir estruturas de decisão e lógica de programação. Esse aprendizado me deu uma visão sólida sobre como programar com eficiência e clara.</p>
+
+                <p>A compreensão das estruturas de repetição foi outro passo importante, pois elas permitiram que eu construísse loops e iterações, facilitando a execução de tarefas repetitivas e a otimização do código. Com esse conhecimento, participei de dois projetos colaborativos importantes: o desenvolvimento de um jogo de jokenpô e a simulação de uma máquina de doces no console. Ambos os projetos me ensinaram a pensar em algoritmos de forma estruturada e colaborativa, entendendo o fluxo do programa e a interação com o usuário. Foi uma experiência prática que reforçou o trabalho em equipe e a aplicação dos conceitos aprendidos.</p>
+                  
+                <p>Além disso, trabalhei com vetores e listas, matrizes e funções, aprimorando minha capacidade de manipular grandes quantidades de dados e organizá-los de maneira funcional. As listas e matrizes foram especialmente úteis para armazenar e manipular dados em conjunto, enquanto as funções permitiram modularizar o código, tornando-o mais organizado e reutilizável.</p>
+                  
+                <p>Essas experiências em Raciocínio Algorítmico ampliaram minha habilidade de resolver problemas de forma lógica e estruturada. Agora, sinto-me mais capacitado(a) para desenvolver projetos mais complexos, e esses conhecimentos em programação, junto ao pensamento algorítmico, são ferramentas essenciais que pretendem levar adiante tanto nos estudos quanto na vida profissional.</p>
+            </div>
+        </div>
+
+        <div id="modal-fundamentos" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal-fundamentos')">&times;</span>
+                <h3>Fundamentos de Sistemas Ciberfísicos</h3>
+                <br>
+                <p>No estudo dos Fundamentos de Sistemas, adquirimos conhecimentos essenciais sobre as principais unidades computacionais de hardware e software e suas funcionalidades. Aprender a identificar os componentes fundamentais de um sistema computacional e compreender o papel de cada unidade no funcionamento geral do sistema. Esse entendimento foi ampliado ao explorar os Sistemas Operacionais, onde conheci a estrutura e as principais funções dos sistemas, além de compreender a importância da comunicação de dados para a integração entre dispositivos.</p>
+
+                <p>A resolução de problemas estruturados foi um aspecto crucial desse aprendizado, pois tenho a oportunidade de aplicar os conhecimentos de hardware e software, trabalhando com dispositivos de comunicação e explorando soluções em nuvem. Essa prática me preparou para pensar em soluções que combinassem diferentes elementos tecnológicos, integrando componentes físicos e digitais para resolver desafios reais.</p>
+                  
+                <p>Durante o curso, participei de dois projetos práticos. No primeiro, fiz uma apresentação em vídeo sobre o Sistema Operacional Ubuntu, onde explorei suas características, vantagens e o impacto desse SO no ambiente computacional. No segundo projeto, trabalhei em uma estufa automatizada no simulador Wokwi, uma experiência que me permitiu colocar na prática o controle de hardware e a programação de sensores e atuadores para criar um ambiente de cultivo independente. Esse projeto foi especialmente marcante, pois combinou teoria e prática, mostrando o potencial de integração entre software, hardware e dispositivos de automação.</p>
+                  
+                <p>Essas experiências em Fundamentos de Sistemas consolidaram minha compreensão sobre a interação entre diferentes componentes tecnológicos e o papel fundamental da tecnologia na solução de problemas modernos. Sinto-me mais preparado(a) para lidar com sistemas complexos e para desenvolver soluções que conectem hardware e software de maneira eficiente e inovadora.</p>
+            </div>
+        </div>
+
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Bem-vindo ao meu portfólio acadêmico! Este site foi criado como parte do Trabalho Discente Efetivo (TDE) para documentar o aprendizado em várias disciplinas ao longo do semestre. Aqui você encontrará informações sobre cada matéria e poderá acompanhar meu progresso acadêmico.</p>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>E-mail: belly.cjm@gmail.com</p>
+            <p>Instagram: belly.araujoooo</p>
+            <p>Telefone: 41 99902-1767</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Isabelly Oliveira Araújo</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
